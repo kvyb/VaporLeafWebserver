@@ -1,0 +1,29 @@
+<html>
+<body>
+  <h1>Deep Suggestion</h1>
+  <p>
+    Test page.
+    </p>
+    <ul>
+      #for(suggestion in suggestions):
+        <li>#(suggestion.name)</li>
+      #endfor
+    </ul>
+
+
+    <h2>Contribute new suggestion</h2>
+
+    <form method="post" action="/add">
+      <p>
+        Name: <input type="text" name="name"  />
+      </p>
+      <p>
+        Description: <input type="text" name="description"  />
+      </p>
+      <p>
+        Price: <input type="number" name="price"  />
+      </p>
+      <button type="submit">Add</button>
+    </form>
+</body>
+</html>
