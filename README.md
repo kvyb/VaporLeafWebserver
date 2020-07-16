@@ -5,6 +5,8 @@ To make changes, ensure Xcode is installed.
 Clone and navigate to project root.
 
 ```
+brew install vapor
+
 Vapor Xcode
 ```
 
